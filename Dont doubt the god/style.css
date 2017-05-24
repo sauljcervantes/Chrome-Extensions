@@ -1,0 +1,18 @@
+body {
+  background: url('https://media0.giphy.com/media/SI90BVqNWKFKE/giphy.gif?response_id=5922f4c4bdec8b82b925c55e') !important;
+}
+ 
+#masthead,
+#primary {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  background-color: #fff;
+  padding: 20px !important;
+}
+#masthead {
+  background: none;
+}
+#masthead img, #primary img {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
